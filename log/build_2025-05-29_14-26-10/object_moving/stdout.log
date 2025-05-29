@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing object_moving.egg-info/PKG-INFO
+writing dependency_links to object_moving.egg-info/dependency_links.txt
+writing entry points to object_moving.egg-info/entry_points.txt
+writing requirements to object_moving.egg-info/requires.txt
+writing top-level names to object_moving.egg-info/top_level.txt
+reading manifest file 'object_moving.egg-info/SOURCES.txt'
+writing manifest file 'object_moving.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages/object-moving.egg-link (link to .)
+Installing pos_of_object script to /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/object_moving
+
+Installed /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving
+running symlink_data
+symbolically linking /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/resource/object_moving -> /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/ament_index/resource_index/packages
+symbolically linking /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/package.xml -> /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving

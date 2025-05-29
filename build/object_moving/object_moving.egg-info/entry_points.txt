@@ -1,0 +1,3 @@
+[console_scripts]
+pos_of_object = object_moving.pos_of_object:main
+

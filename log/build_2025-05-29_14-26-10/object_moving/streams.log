@@ -1,0 +1,19 @@
+[2.715s] Invoking command in '/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/build --no-deps symlink_data --force
+[3.807s] running develop
+[4.506s] running egg_info
+[4.506s] writing object_moving.egg-info/PKG-INFO
+[4.508s] writing dependency_links to object_moving.egg-info/dependency_links.txt
+[4.509s] writing entry points to object_moving.egg-info/entry_points.txt
+[4.509s] writing requirements to object_moving.egg-info/requires.txt
+[4.510s] writing top-level names to object_moving.egg-info/top_level.txt
+[4.517s] reading manifest file 'object_moving.egg-info/SOURCES.txt'
+[4.522s] writing manifest file 'object_moving.egg-info/SOURCES.txt'
+[4.527s] running build_ext
+[4.528s] Creating /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages/object-moving.egg-link (link to .)
+[4.533s] Installing pos_of_object script to /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/object_moving
+[4.534s] 
+[4.534s] Installed /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving
+[4.537s] running symlink_data
+[4.538s] symbolically linking /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/resource/object_moving -> /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/ament_index/resource_index/packages
+[4.540s] symbolically linking /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/package.xml -> /home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving
+[4.676s] Invoked command in '/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving' returned '0': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/build --no-deps symlink_data --force

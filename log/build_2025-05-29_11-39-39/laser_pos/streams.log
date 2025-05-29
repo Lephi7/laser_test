@@ -1,0 +1,43 @@
+[1.182s] Invoking command in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_pos build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log --single-version-externally-managed install_data
+[1.561s] running egg_info
+[1.562s] creating ../../build/laser_pos/laser_pos.egg-info
+[1.563s] writing ../../build/laser_pos/laser_pos.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/laser_pos/laser_pos.egg-info/dependency_links.txt
+[1.563s] writing entry points to ../../build/laser_pos/laser_pos.egg-info/entry_points.txt
+[1.563s] writing requirements to ../../build/laser_pos/laser_pos.egg-info/requires.txt
+[1.564s] writing top-level names to ../../build/laser_pos/laser_pos.egg-info/top_level.txt
+[1.564s] writing manifest file '../../build/laser_pos/laser_pos.egg-info/SOURCES.txt'
+[1.567s] reading manifest file '../../build/laser_pos/laser_pos.egg-info/SOURCES.txt'
+[1.568s] writing manifest file '../../build/laser_pos/laser_pos.egg-info/SOURCES.txt'
+[1.569s] running build
+[1.569s] running build_py
+[1.569s] creating /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build
+[1.569s] creating /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib
+[1.570s] creating /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos
+[1.570s] copying laser_pos/__init__.py -> /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos
+[1.570s] copying laser_pos/turtle_follower.py -> /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos
+[1.570s] copying laser_pos/turtle_pose_listener.py -> /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos
+[1.571s] running install
+[1.571s] running install_lib
+[1.572s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos
+[1.573s] copying /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos/__init__.py -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos
+[1.573s] copying /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos/turtle_follower.py -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos
+[1.573s] copying /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build/lib/laser_pos/turtle_pose_listener.py -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos
+[1.574s] byte-compiling /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos/__init__.py to __init__.cpython-310.pyc
+[1.574s] byte-compiling /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos/turtle_follower.py to turtle_follower.cpython-310.pyc
+[1.575s] byte-compiling /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos/turtle_pose_listener.py to turtle_pose_listener.cpython-310.pyc
+[1.576s] running install_data
+[1.576s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share
+[1.576s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/ament_index
+[1.577s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/ament_index/resource_index
+[1.577s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/ament_index/resource_index/packages
+[1.577s] copying resource/laser_pos -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/ament_index/resource_index/packages
+[1.577s] creating /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos
+[1.577s] copying package.xml -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos
+[1.578s] running install_egg_info
+[1.582s] Copying ../../build/laser_pos/laser_pos.egg-info to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos-0.0.0-py3.10.egg-info
+[1.584s] running install_scripts
+[1.615s] Installing turtle_follower script to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/laser_pos
+[1.616s] Installing turtle_pos_listener script to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/laser_pos
+[1.616s] writing list of installed files to '/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log'
+[1.669s] Invoked command in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos' returned '0': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_pos build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log --single-version-externally-managed install_data

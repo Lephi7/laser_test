@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/laser_pos/laser_pos.egg-info/PKG-INFO
+writing dependency_links to ../../build/laser_pos/laser_pos.egg-info/dependency_links.txt
+writing entry points to ../../build/laser_pos/laser_pos.egg-info/entry_points.txt
+writing requirements to ../../build/laser_pos/laser_pos.egg-info/requires.txt
+writing top-level names to ../../build/laser_pos/laser_pos.egg-info/top_level.txt
+reading manifest file '../../build/laser_pos/laser_pos.egg-info/SOURCES.txt'
+writing manifest file '../../build/laser_pos/laser_pos.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/turtle_follower.launch.py -> /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/launch
+running install_egg_info
+removing '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/laser_pos/laser_pos.egg-info to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages/laser_pos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_follower script to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/laser_pos
+Installing turtle_pos_listener script to /home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/laser_pos
+writing list of installed files to '/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log'

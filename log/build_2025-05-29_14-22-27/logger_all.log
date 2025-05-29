@@ -1,0 +1,177 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.204s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x748eb0256020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x748eb0255990>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x748eb0255990>>, mixin_verb=('build',))
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.548s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lephi7/Documents/ros2_projects/laser_test'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_pos) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_pos' with type 'ros.ament_python' and name 'laser_pos'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_moving) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_moving' with type 'ros.ament_python' and name 'object_moving'
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.638s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lephi7/Documents/ros2_projects/laser_test/install
+[0.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_target' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_clean_first' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'laser_pos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'laser_pos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos', 'merge_install': False, 'path': '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos', 'symlink_install': False, 'test_result_base': None}
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'object_moving' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.758s] DEBUG:colcon.colcon_core.verb:Building package 'object_moving' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving', 'merge_install': False, 'path': '/home/lephi7/Documents/ros2_projects/laser_test/src/object_moving', 'symlink_install': False, 'test_result_base': None}
+[0.758s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.761s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos' with build type 'ament_python'
+[0.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_pos', 'ament_prefix_path')
+[0.765s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/ament_prefix_path.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/ament_prefix_path.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/ament_prefix_path.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.779s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lephi7/Documents/ros2_projects/laser_test/src/object_moving' with build type 'ament_python'
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_moving', 'ament_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/ament_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/ament_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/ament_prefix_path.sh'
+[0.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.786s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.431s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos'
+[1.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.124s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lephi7/Documents/ros2_projects/laser_test/src/object_moving'
+[2.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_pos build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log --single-version-externally-managed install_data
+[3.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lephi7/Documents/ros2_projects/laser_test/src/object_moving': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_moving build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/install.log --single-version-externally-managed install_data
+[4.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lephi7/Documents/ros2_projects/laser_test/src/object_moving' returned '0': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_moving build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/object_moving/install.log --single-version-externally-managed install_data
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving' for CMake module files
+[4.696s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving' for CMake config files
+[4.699s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib'
+[4.700s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/bin'
+[4.700s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/pkgconfig/object_moving.pc'
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/lib/python3.10/site-packages'
+[4.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_moving', 'pythonpath')
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/pythonpath.ps1'
+[4.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/pythonpath.dsv'
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/hook/pythonpath.sh'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/bin'
+[4.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_moving)
+[4.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/package.ps1'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/package.dsv'
+[4.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/package.sh'
+[4.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/package.bash'
+[4.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/object_moving/package.zsh'
+[4.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lephi7/Documents/ros2_projects/laser_test/install/object_moving/share/colcon-core/packages/object_moving)
+[4.756s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos' for CMake module files
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos' for CMake config files
+[4.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lephi7/Documents/ros2_projects/laser_test/src/laser_pos' returned '0': PYTHONPATH=/home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_pos build --build-base /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/build install --record /home/lephi7/Documents/ros2_projects/laser_test/build/laser_pos/install.log --single-version-externally-managed install_data
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib'
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/bin'
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/pkgconfig/laser_pos.pc'
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/lib/python3.10/site-packages'
+[4.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_pos', 'pythonpath')
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/pythonpath.ps1'
+[4.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/pythonpath.dsv'
+[4.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/hook/pythonpath.sh'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/bin'
+[4.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_pos)
+[4.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/package.ps1'
+[4.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/package.dsv'
+[4.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/package.sh'
+[4.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/package.bash'
+[4.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/laser_pos/package.zsh'
+[4.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lephi7/Documents/ros2_projects/laser_test/install/laser_pos/share/colcon-core/packages/laser_pos)
+[4.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.815s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.853s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.962s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lephi7/Documents/ros2_projects/laser_test/install/local_setup.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lephi7/Documents/ros2_projects/laser_test/install/_local_setup_util_ps1.py'
+[4.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lephi7/Documents/ros2_projects/laser_test/install/setup.ps1'
+[4.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lephi7/Documents/ros2_projects/laser_test/install/local_setup.sh'
+[5.004s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lephi7/Documents/ros2_projects/laser_test/install/_local_setup_util_sh.py'
+[5.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lephi7/Documents/ros2_projects/laser_test/install/setup.sh'
+[5.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lephi7/Documents/ros2_projects/laser_test/install/local_setup.bash'
+[5.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lephi7/Documents/ros2_projects/laser_test/install/setup.bash'
+[5.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lephi7/Documents/ros2_projects/laser_test/install/local_setup.zsh'
+[5.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lephi7/Documents/ros2_projects/laser_test/install/setup.zsh'

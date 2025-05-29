@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_follower = laser_pos.turtle_follower:main
+
