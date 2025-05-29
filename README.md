@@ -16,7 +16,9 @@ This is one of my first own ROS code, take it with a grain of salt as it sucks.
 
 First terminal :
 ```terminal
-$ cd your_ws/laser_test
+$ mkdir your_ws
+$ git clone https://github.com/Lephi7/laser_test.git
+$ cd laser_test
 $ colcon build
 $ source install/setup.bash
 $ ros2 launch laser_pos turtle_follower.launch.py
